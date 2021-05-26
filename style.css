@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 820px;
+    min-width: 820px;
+    max-height: 640px;
+    min-height: 640px;
+}
+
+.content {
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 15%;
+    /* border: 2px solid red; */
+}
+
+.mid {
+    height: 15%;
+}
+
+#footer {
+    height: 10%;
+}
+
+.content div {
+    border: 2px solid black;
+    flex-basis: 32%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white; 
+}
+
+#car {
+    background-image: url('https://images.unsplash.com/photo-1597404294360-feeeda04612e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+
+#suv {
+    background-image: url('https://www.cstatic-images.com/car-pictures/main/usd10cas011a021001.png');
+    color: black;
+}
+
+#trucks {
+    background-image: url('https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/legacy/nameplate/trucks/MY20Raptor_2160x1440.jpg/_jcr_content/renditions/cq5dam.web.768.768.jpeg');
+}
+
+#mini {
+    background-image: url('https://www.kbb.com/wp-content/uploads/2019/12/2020-kia-sedona-16x9-1.jpg');
+}
+
+#cargo {
+    background-image: url('https://media.ed.edmunds-media.com/ford/transit-van/2018/oem/2018_ford_transit-van_cargo-van_350-high-roof-wsliding-passenger-side-door_fq_oem_1_1600.jpg');
+    color: black; 
+}
+
+#passenger {
+    background-image: url('https://automanager.blob.core.windows.net/wmclients/031427/images/main-gallery-image.png');
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
